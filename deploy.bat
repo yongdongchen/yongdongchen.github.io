@@ -1,3 +1,6 @@
 @echo off
-echo "欢迎来到脚本之家!"
+git add .
+git commit -m "update"
+git push origin master
+echo "部署成功"
 pause
